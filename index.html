@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سَكِينَة – مواساة القلوب بالقرآن والدعاء</title>
+
+<!-- خطوط -->
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+<!-- ربط CSS خارجي -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>سَكِينَة</h1>
+<p class="subtitle">مواساة القلوب بالقرآن والدعاء 🌿</p>
+
+<textarea id="feeling" maxlength="300" placeholder="اكتب ما في قلبك هنا..."></textarea><br>
+<button onclick="analyzeFeeling()">ابحث عن سكينتي 💜</button>
+
+<div class="section" id="resultSection">
+  <div class="card" id="supportCard">
+    <h3>💬 كلمات من القلب</h3>
+    <p id="supportText"></p>
+  </div>
+
+  <div class="card" id="ayahCard">
+    <h3>📖 آية سكينة</h3>
+    <p class="ayah" id="ayahText"></p>
+    <p class="ayah-en" id="ayahEn"></p>
+    <p class="surah" id="ayahSurah"></p>
+    <div class="comment" id="ayahComment"></div>
+  </div>
+
+  <div class="card" id="duaCard">
+    <h3>🤲 دعاء مناسب لحالك</h3>
+    <p id="duaText"></p>
+  </div>
+</div>
+
+<footer>© 2025 سكينة – "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ"</footer>
+
+<!-- ربط JS خارجي -->
+<script src="index.js"></script>
+
+</body>
+</html>
